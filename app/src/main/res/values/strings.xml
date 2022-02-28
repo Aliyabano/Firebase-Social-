@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Using Firebase</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="name4">Forgot your login details?</string>
+    <string name="name5">Get help with logging in.</string>
+    <string name="or">OR</string>
+    <string name="loginwithfacebook">Login with facebook</string>
+    <string name="sign">Do not have an account?</string>
+    <string name="signIn">Signup</string>
+    <string name="username">Username</string>
+    <string name="emailId">Email id</string>
+    <string name="signUp">Sign up</string>
+    <string name="log">Have an account?</string>
+    <string name="log2">Login</string>
+</resources>
