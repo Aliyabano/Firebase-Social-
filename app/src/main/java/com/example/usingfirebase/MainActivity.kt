@@ -20,6 +20,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        forgotPassword.setOnClickListener {
+            startActivity(Intent(this,ResetPassword::class.java))
+        }
+
         btnSign.setOnClickListener {
             startActivity(Intent(this,SignupActivity::class.java))
         }
@@ -28,7 +32,6 @@ class MainActivity : AppCompatActivity() {
 
             if (validation()) login()
         }
-
 
     }
 

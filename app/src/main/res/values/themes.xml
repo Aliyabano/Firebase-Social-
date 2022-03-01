@@ -14,6 +14,14 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="Theme.TextView3" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/reset_pass</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline4</item>
+        <item name="android:gravity">center</item>
+    </style>
+
 
     <style name="Theme.EditText" parent="Widget.AppCompat.EditText">
         <item name="android:layout_width">match_parent</item>
@@ -21,4 +29,5 @@
         <item name="android:hint">@string/email</item>
         ></style>
 
+    <string name="reset">Reset Password</string>
 </resources>
