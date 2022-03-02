@@ -100,18 +100,15 @@
         tools:ignore="UnknownId" />
 
 
-    <Button
-        android:id="@+id/button2"
-        style="@style/Widget.MaterialComponents.Button.TextButton"
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/ic_facebook"
-        android:text="@string/loginwithfacebook"
-        android:textAlignment="viewStart"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        android:layout_gravity="center_horizontal"
         app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView55"/>
+        app:layout_constraintTop_toBottomOf="@+id/forgotPassword" />
 
     <TextView
         android:id="@+id/textView4"
